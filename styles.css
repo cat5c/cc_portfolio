@@ -7,13 +7,28 @@ body {
   margin-bottom: 0;
 }
 
+/*.img-rounded{
+  border-radius: 30%;
+}*/
+
 .jumbotron {
   padding-top: 10rem;
   padding-bottom: 10rem;
   margin-bottom: 0;
-  background-image: url("https://www.pardot.com/content/uploads/2016/04/header-newfeature.jpg");
+  background-image: url("https://trapptechnology.com/wp-content/uploads/2016/04/picjumbo.com_HNCK9016-1024x683.jpg");
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url("https://trapptechnology.com/wp-content/uploads/2016/04/picjumbo.com_HNCK9016-1024x683.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: scroll;
+
+}
+h1{
+    /*min-height: 200px;*/
+    font-size: 3.75rem;
 
 }
 
@@ -25,9 +40,9 @@ body {
   margin-top: 4rem;
   margin-bottom: 30px;
   font-weight: 900;
-  line-height: 50px;
+  line-height: 115px;
   font-style: bold;
-  color: white;
+  color: #c3a343;
   font-family: "zapfino", cursive;
   /*display: inline;*/
   /*position: relative;*/
@@ -38,11 +53,33 @@ body {
   font-style: bold;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  font-weight: 400;
 }
 
 .jumbotron .container {
   max-width: 40rem;
   min-height: 300px;
+}
+/*.link-buttons{
+  color:
+}*/
+
+.btn.outline {
+    background: none;
+    padding: 15px 22px;
+}
+.btn-primary.outline {
+    border: 4px solid #c3a343;
+    color: #ffffff;
+}
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+    color: #ffffff;
+    border-color: #c3a343;
+}
+.btn-primary.outline:active, .btn-primary.outline.active {
+    border-color: #c3a343;
+    color: #ffffff;
+    box-shadow: 10px 10px;
 }
 
 .album {
