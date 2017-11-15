@@ -1,15 +1,17 @@
+
 body {
-  /*min-height: 105rem;*/
-  background-color: #212529
+  background-color: #212529;
+
 }
 
 .navbar {
   margin-bottom: 0;
 }
 
-/*.img-rounded{
-  border-radius: 30%;
-}*/
+.img{
+  padding-top: 5%;
+  
+}
 
 .jumbotron {
   padding-top: 10rem;
@@ -24,12 +26,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   overflow: scroll;
-
 }
 h1{
     /*min-height: 200px;*/
     font-size: 3.75rem;
-
 }
 
 .jumbotron p:last-child {
@@ -41,16 +41,11 @@ h1{
   margin-bottom: 30px;
   font-weight: 900;
   line-height: 115px;
-  font-style: bold;
   color: #c3a343;
   font-family: "zapfino", cursive;
-  /*display: inline;*/
-  /*position: relative;*/
-
 }
 .lead {
   color: white;
-  font-style: bold;
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-weight: 400;
@@ -60,9 +55,6 @@ h1{
   max-width: 40rem;
   min-height: 300px;
 }
-/*.link-buttons{
-  color:
-}*/
 
 .btn.outline {
     background: none;
@@ -87,7 +79,6 @@ h1{
   padding-top: 3rem;
   padding-bottom: 11rem;
   background-color: #212529;
-
 }
 
 .card {
