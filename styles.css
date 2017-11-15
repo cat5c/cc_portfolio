@@ -10,7 +10,7 @@ body {
 
 .img{
   padding-top: 5%;
-  
+
 }
 
 .jumbotron {
@@ -30,6 +30,7 @@ body {
 h1{
     /*min-height: 200px;*/
     font-size: 3.75rem;
+    display: inline-block;
 }
 
 .jumbotron p:last-child {
@@ -52,8 +53,8 @@ h1{
 }
 
 .jumbotron .container {
-  max-width: 40rem;
-  min-height: 300px;
+  max-width: 500rem;
+  min-height: 500px;
 }
 
 .btn.outline {
