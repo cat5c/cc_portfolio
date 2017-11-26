@@ -8,12 +8,12 @@
 
   <title>Catheryn-Celaya's Portfolio</title>
 
-  <link rel="icon" href="favicon.ico">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link rel="icon" href="favicon.ico">
+
   <link href="./styles.css" rel="stylesheet" >
-
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-
 
 </head>
 
@@ -23,13 +23,14 @@
       <div class="row">
         <div class="col-sm-8 py-4">
           <h4 class="text-white">About Me:</h4>
-          <p class="text-muted"> I'm a Junior Full-Stack Software Developer who integrated her enterprising skills and passion for problem solving with coding - I have successfully assembled numerous web applications, on different platforms, both working in a group and individually. I'm resourceful, with an inherently curious nature and an "there is always a better way to do something", outlook. Through this journey, I've become a Google-Fu master and look forward to contributing to the community and adding value to a team.
-          My previous experience includes being a hands-on property management professional, effective at bringing projects from concept to reality, with a passion for turning the best ideas in to executed strategies and a keen attention to detail. I excel at making sound judgements under pressure, adept at solving complex problems through critical thinking, analysis, and common sense. Effective at inspiring trust through integrity, empathy, consistency and communication.</p>
+          <p class="text-muted"> I'm a resourceful business professional, with an inherently curious nature and an "there is always a better way to do something", outlook. Who integrated her enterprising skills and passion for problem solving with coding - I have successfully assembled numerous web applications, on different platforms, both working in a group and individually. I've become a Google-Fu master, I'm relentless and have a nose for spotting errors. I look forward to contributing all of my skills and adding value to a team.
+          My previous experience includes being a hands-on property management professional, effective at bringing projects from concept to reality and a keen attention to detail. I excel at making sound judgements under pressure, adept at solving complex problems through critical thinking, analysis, and common sense. Effective at inspiring trust through integrity, empathy, consistency and communication.</p>
           <p class="text-muted">
             Languages: Ruby, Javascript, HTML5, CSS3 and SASS<br />
             Frameworks and Technologies: Ruby on Rails, Sinatra, JQuery and Bootstrap<br />
             Databases: PostgreSQL, sqlite, SQL <br />
-            Concepts/Technologies: Git, Agile Development, Object Oriented Programming, PRY, IRB, Heroku, API's, RSpec, Capybara, CMS, AJAX, REST, TDD, Pair Programming, and MVC
+            Concepts/Technologies: Git, Agile Development, Object Oriented Programming, PRY, IRB, Heroku, API's, RSpec, Capybara, CMS, AJAX, REST, TDD, Pair Programming, and MVC<br />
+            **Currently learning REACT**
           </p>
         </div>
         <div class="col-sm-4 py-4">
@@ -54,15 +55,16 @@
     <div class="container d-flex justify-content-between">
       <a href="#" class="navbar-brand">Portfolio</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-sm text-white" >About</span>
       </button>
     </div>
   </div>
+  <!--Heading-->
   <section class="jumbotron text-center">
     <div class="container">
       <h1 class="jumbotron-heading">Catheryn Celaya</h1>
       <p class="lead text">∙ Solutions driven ∙ Complex problem solver ∙ Full-Stack Software Developer</p>
-      <p>
+      <p id="main-buttons">
         <a class="btn btn-primary btn-lg outline" href="https://www.linkedin.com/in/catheryncelaya-3614/" target="_blank"> LinkedIn
         </a>
         <a class="btn btn-primary btn-lg outline" href="http://github.com/cat5c" target="_blank" >Github
@@ -71,39 +73,77 @@
     </div>
   </section>
 
-  <!-- <div class="album text-muted">
-    <div class="container">
-      <div class="row">
-        <div class="card">
-          <img data-src="holder.js/100px280/thumb" alt="">
-          <p class="card-text"></p>
-        </div>
-        <div class="card">
-          <img data-src="holder.js/100px280/thumb" alt="">
-          <p class="card-text"></p>
-        </div>
-        <div class="card">
-          <img data-src="holder.js/100px280/thumb" alt="">
-          <p class="card-text"></p>
-        </div>
-        class="link-buttons"
-        <div class="card">
-          <img data-src="holder.js/100px280/thumb" alt="">
-          <p class="card-text"></p>
-        </div>
-        <div class="card">
-          <img data-src="holder.js/100px280/thumb" alt="">
-          <p class="card-text"></p>
-        </div>
-        <div class="card">
-          <img data-src="holder.js/100px280/thumb" alt="">
-          <p class="card-text"></p>
-        </div>
-      </div>
-    </div>
-  </div> -->
+<!--Projects-->
+  <!-- <div class="row text-center" id="projects">
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="./Dala Game.png" alt="">
+            <div class="card-body">
+              <h4 class="card-title">Dala</h4>
+              <p class="card-text">Dala is the product of a Wyntank pitch, which was given by Rodrigo Pecchio a student at FIU whom had a vision that his app would have the addictive qualities that rolly vortex or sliter.io have, with the beneficial factor of it being educational.
+              The main page displays the user sign up or sign in, once completed you're now on the game level page, which includes 4 levels, you can also check out the leaderboard and see where you rank in comparison with your friends. You start out with physics as your subject, each level has a different monster and background with subsequently harder questions, moving on to different subjects.</p>
+            </div>
+            <div class="card-footer">
+              <a href="http://www.dalagame.co/" target="_blank" class="btn btn-primary btn-lg outline">Find Out More!</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="./PhotoIt .png" alt="PhotoIt Screenshot">
+            <div class="card-body">
+              <h4 class="card-title">PhotoIt</h4>
+              <p class="card-text">This webapp was completed by Catheryn Celaya and Joe Cassiere for "Family & Friends Night" at Wyncode Academy.
+                PhotoIt is a geolocation-based picture app. Users can upload and vote on others' pictures.
+                The main page displays the most popular pictures uploaded in the user's area within the last 24 hours. Pictures older than 24 hours and from other areas can be found on other pages on the site.
+               </p>
+            </div>
+            <div class="card-footer">
+              <a href="https://photoit.herokuapp.com/" target="_blank" class="btn btn-primary btn-lg outline">Find Out More!</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="http://placehold.it/500x325" alt="">
+            <div class="card-body">
+              <h4 class="card-title">Rails Blog</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary btn-lg outline">Find Out More!</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="http://placehold.it/500x325" alt="">
+            <div class="card-body">
+              <h4 class="card-title">repl Game</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary btn-lg outline">Find Out More!</a>
+            </div>
+          </div>
+        </div>
+
+    </div> -->
+
+  <!-- Footer -->
+   <footer class="py-5 bg-dark">
+     <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Catheryn Celaya 2017</p>
+     </div>
+             <!-- /.container -->
+  </footer>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 </body>
